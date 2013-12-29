@@ -1,0 +1,50 @@
+div.wrapper {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 2em;
+	max-width: 960px;
+	background-color:  #25383C;
+}
+
+h2.location {
+	margin-bottom: 0.1em;
+}
+
+h3.author {
+	font-style: italic;
+	margin-top: 0em;
+}
+
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.map {
+	max-width: 960px;
+	height: 450px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.panel {
+	position: relative;
+	top: 0;
+	right: 0;
+	float: right;
+	z-index: 100;
+	width: 400px;
+	height: 450px;
+	background-color: #25383C;
+	-webkit-filter: blur(0px);
+	overflow: scroll;
+	display: none;
+}
+
+.content {
+	padding: 1em;
+	color: #CCCCCC;
+	overflow: scroll;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+}
